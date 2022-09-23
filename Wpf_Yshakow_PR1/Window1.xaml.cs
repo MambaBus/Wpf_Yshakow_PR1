@@ -19,9 +19,6 @@ namespace Wpf_Yshakow_PR1
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
-        {
-            InitializeComponent();
-        }
+        public Window1() => InitializeComponent();
     }
 }
