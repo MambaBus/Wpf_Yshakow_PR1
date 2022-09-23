@@ -1,0 +1,51 @@
+﻿<Window x:Class="Wpf_Yshakow_PR1.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Yshakow_PR1"
+        mc:Ignorable="d"
+        Title="Диспетчеры компоновки" Height="450" Width="800">
+    <Grid>
+        <WrapPanel RenderTransformOrigin="0.5,0.5">
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-3"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Последние документы" VerticalAlignment="Top"/>
+            <Button Content="Открыть" HorizontalAlignment="Left" Margin="168,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-160" Y="0"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button Content="Сохранить" HorizontalAlignment="Left" Margin="-150,11,0,0" VerticalAlignment="Top"/>
+            <Button Content="Закрыть" HorizontalAlignment="Left" Margin="-80,11,0,0" VerticalAlignment="Top"/>
+            <Button Content="Обработать" HorizontalAlignment="Left" Margin="-20,11,0,0" VerticalAlignment="Top"/>
+            <Button Content="О программе" HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top"/>
+            <Label Content="1.txt" HorizontalAlignment="Left" Margin="-485,42,0,0" VerticalAlignment="Top"/>
+            <Label Content="2.txt" HorizontalAlignment="Left" Margin="-485,64,0,0" VerticalAlignment="Top"/>
+            <Label Content="3.txt" HorizontalAlignment="Left" Margin="-485,86,0,0" VerticalAlignment="Top"/>
+            <Label Content="4.txt" HorizontalAlignment="Left" Margin="-485,108,0,0" VerticalAlignment="Top"/>
+            <Label Content="5.txt" HorizontalAlignment="Left" Margin="-485,130,0,0" VerticalAlignment="Top"/>
+            <Label Content="6.txt" HorizontalAlignment="Left" Margin="-485,154,0,0" VerticalAlignment="Top"/>
+            <Label Content="1.txt" HorizontalAlignment="Left" Margin="-350,42,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="2.txt" HorizontalAlignment="Left" Margin="-310,42,0,0" VerticalAlignment="Top"/>
+            <Label Content="3.txt" HorizontalAlignment="Left" Margin="-270,42,0,0" VerticalAlignment="Top"/>
+            <Label Content="A" HorizontalAlignment="Left" Margin="-350,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FFF9FB01" Height="65"/>
+            <Label Content="B" HorizontalAlignment="Left" Margin="-270,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FFFB3A01" Height="65"/>
+            <Label Content="C" HorizontalAlignment="Left" Margin="-190,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FF01FB3E" Height="65"/>
+            <Label Content="D" HorizontalAlignment="Left" Margin="-110,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FF01A5FB" Height="65"/>
+            <Label Content="E" HorizontalAlignment="Left" Margin="-30,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FF717167" Height="65"/>
+            <Label Content="F" HorizontalAlignment="Left" Margin="20,81,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Width="64" Background="#FFF5F5A7" Height="65"/>
+        </WrapPanel>
+    </Grid>
+</Window>

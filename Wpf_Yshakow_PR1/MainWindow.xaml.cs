@@ -71,5 +71,17 @@ namespace Wpf_Yshakow_PR1
             Window7 window7 = new Window7();
             window7.Show();
         }
+
+        private void Win8_Click(object sender, RoutedEventArgs e)
+        {
+            Window8 window8 = new Window8();
+            window8.Show();
+        }
+
+        private void Win9_Click(object sender, RoutedEventArgs e)
+        {
+            Window9 window9 = new Window9();
+            window9.Show();
+        }
     }
 }

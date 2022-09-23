@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
         <Canvas>
             <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
             <Button x:Name="Win2" Canvas.Left="150" Canvas.Top="10" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
@@ -16,7 +16,9 @@
             <Button x:Name="Win5" Canvas.Left="600" Canvas.Top="10" Height="50" Width="100" Content="Win5" Click="Win5_Click"></Button>
             <Button x:Name="Win6" Canvas.Left="10" Canvas.Top="100" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
             <Button x:Name="Win7" Canvas.Left="150" Canvas.Top="100" Height="50" Width="100" Content="Win7" Click="Win7_Click"></Button>
+            <Button x:Name="Win8" Canvas.Left="300" Canvas.Top="100" Height="50" Width="200" Content="Самостоятельная работа 5.1" Click="Win8_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFEF24A7"></Button>
+            <Button x:Name="Win9" Canvas.Left="520" Canvas.Top="100" Height="50" Width="200" Content="Самостоятельная работа 5.2" Click="Win9_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFEF24A7"></Button>
         </Canvas>
-        
+
     </Grid>
 </Window>
