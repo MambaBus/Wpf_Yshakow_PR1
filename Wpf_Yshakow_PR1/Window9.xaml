@@ -5,24 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Yshakow_PR1"
         mc:Ignorable="d"
-        Title="Диспетчеры компоновки" Height="450" Width="800">
+        Title="Диспетчеры компоновки" Height="550" Width="500">
     <Grid>
-        
-        <WrapPanel>
-            <Label Content="A" HorizontalAlignment="Left" Margin="5,70,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="B" HorizontalAlignment="Left" Margin="-50,130,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="C" HorizontalAlignment="Left" Margin="-50,190,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="D" HorizontalAlignment="Left" Margin="-50,250,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="E" HorizontalAlignment="Left" Margin="-50,310,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="F" HorizontalAlignment="Left" Margin="-50,370,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="A" HorizontalAlignment="Left" Margin="30,5,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="B" HorizontalAlignment="Left" Margin="-50,70,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="C" HorizontalAlignment="Left" Margin="-50,140,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="D" HorizontalAlignment="Left" Margin="-50,210,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="E" HorizontalAlignment="Left" Margin="-50,280,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-            <Label Content="F" HorizontalAlignment="Left" Margin="-50,350,0,0" VerticalAlignment="Top" Width="50" Height="50" Background="#FFECF901"/>
-        </WrapPanel>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
+        <WrapPanel Orientation="Vertical" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="A" Height="80" Width="80" Background="#FFFFEA00" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="B" Height="80" Width="80" Background="Red" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="C" Height="80" Width="80" Background="#FF07880C" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="D" Height="80" Width="80" Background="#FF113FB9" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="E" Height="80" Width="80" Background="#FF8C8F96" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="F" Height="80" Width="80" Background="#FFDEED9E" BorderBrush="{x:Null}" BorderThickness="8"/>
+        </WrapPanel> 
+
+        <WrapPanel Orientation="Vertical" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+            <Button Content="A" Height="80" Width="80" Background="#FFFFEA00" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="B" Height="80" Width="80" Background="Red" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="C" Height="80" Width="80" Background="#FF07880C" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="D" Height="80" Width="80" Background="#FF113FB9" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="E" Height="80" Width="80" Background="#FF8C8F96" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="F" Height="80" Width="80" Background="#FFDEED9E" BorderBrush="{x:Null}" BorderThickness="8"/>
+        </WrapPanel>
     </Grid>
 </Window>
