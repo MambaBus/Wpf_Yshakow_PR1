@@ -18,6 +18,7 @@
             <Button x:Name="Win7" Canvas.Left="150" Canvas.Top="100" Height="50" Width="100" Content="Win7" Click="Win7_Click"></Button>
             <Button x:Name="Win8" Canvas.Left="300" Canvas.Top="100" Height="50" Width="200" Content="Самостоятельная работа 5.1" Click="Win8_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFEF24A7"></Button>
             <Button x:Name="Win9" Canvas.Left="520" Canvas.Top="100" Height="50" Width="200" Content="Самостоятельная работа 5.2" Click="Win9_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFEF24A7"></Button>
+            <Button x:Name="Win10" Content="Пример 1" Canvas.Left="10" Canvas.Top="174" Height="55" Width="100" Click="Win10_Click"/>
         </Canvas>
 
     </Grid>

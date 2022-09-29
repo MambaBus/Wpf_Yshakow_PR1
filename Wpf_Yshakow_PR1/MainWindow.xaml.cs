@@ -83,5 +83,11 @@ namespace Wpf_Yshakow_PR1
             Window9 window9 = new Window9();
             window9.Show();
         }
+
+        private void Win10_Click(object sender, RoutedEventArgs e)
+        {
+            Window10 window10 = new Window10();
+            window10.Show();
+        }
     }
 }
